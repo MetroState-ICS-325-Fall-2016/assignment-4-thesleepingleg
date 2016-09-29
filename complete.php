@@ -85,7 +85,7 @@ function validate_form( ) {
     } else {
         $input['size'] = '';
     }
-    if (! in_array($input['size'], ['small','medium','large'])) {
+    if (! in_array($input['size'], ['small','medium','large','xlarge'])) {
         $errors[] = 'Please select a size.';
     }
     // sweet is required
